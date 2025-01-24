@@ -1,13 +1,13 @@
 import datetime
 import os
-APIKEY="b19380af63304bdeba564debbce12f5c"
-APIID="c12cb108"
+APIKEY="-----"
+APIID="-----"
 
 head={
     "x-app-id":os.environ['APIID'],
     "x-app-key":APIKEY,
     "x-remote-user-id":"0",
-    "Authorization":"Basic bnVsbDpudWxs"
+    "Authorization":"-----"
 }
 
 import requests
